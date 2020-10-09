@@ -37,7 +37,7 @@
   position: absolute;
   padding: 10px;
   top: 100px;
-  left: 80px;
+  left: 90px;
   transform: translate3d(-50%, -50%, 0);
   border-radius: 5px;
   pointer-events: none;
@@ -48,7 +48,7 @@
   position: absolute;
   padding: 10px;
   top: 220px;
-  left: 80px;
+  left: 90px;
   transform: translate3d(-50%, -50%, 0);
   border-radius: 5px;
   pointer-events: none;

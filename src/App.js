@@ -2,19 +2,22 @@ import React, { Component } from 'react';
 
 import './App.css';
 import Test from './test1';
-
-
+import {Switch} from "react-router-dom";
+import {Route} from "react-router-dom";
+import MaxWidthDialog from './Dialog'
 class  App extends Component {
   
 render (){
   return (
 
-    <div className="">
+      <div className="">
+          <Route path="/"  exact component={Test}></Route>
+        <Switch>
 
-  <Test />
+          <Route path="/dialog"  component={MaxWidthDialog}></Route>
 
-  
-</div>
+        </Switch>
+      </div>
 
   );
 }
