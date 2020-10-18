@@ -14,7 +14,7 @@ class App extends Component {
     return (
 
       <div className="">
-        <TestAbod />
+
         <Route path="/" exact component={Test}></Route>
         <Switch>
 
