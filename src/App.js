@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import Test from './test1';
-import { Switch } from "react-router-dom";
 import { Route } from "react-router-dom";
-import MaxWidthDialog from './Dialog'
-import TestAbod from './test2'
+
+import Container from "./Container";
 
 
 class App extends Component {
@@ -15,12 +13,8 @@ class App extends Component {
 
       <div className="">
 
-        <Route path="/" exact component={Test}></Route>
-        <Switch>
+        <Route path="/" exact component={Container}></Route>
 
-          <Route path="/dialog" component={MaxWidthDialog}></Route>
-
-        </Switch>
       </div>
 
     );

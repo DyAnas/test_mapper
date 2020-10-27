@@ -2,7 +2,23 @@
   position: relative;
   text-align: center;
   color: #1d0707;
+  padding-left: 0!important;
+
 }
+.btn.btn-light:hover{
+  background: #17a2b8;
+}
+.btn.btn-light:focus{
+  background: #17a2b8!important;
+}
+.btn.btn-light{
+  border: 1px solid #4A585C;
+  border-radius: 2px;
+  color: #548E6C;
+}
+
+
+
 .center{
 
   display: flex;
@@ -10,104 +26,92 @@
   justify-content: center;
 }
 
-.tooltip {
-  position: absolute;
-  padding: 10px;
-  background: rgba(0,0,0,0.8);
-  transform: translate3d(-50%, -50%, 0);
-  border-radius: 5px;
-  pointer-events: none;
-  z-index: 1000;
-}
-.area{
-  background-color: red;
-}
-.blue {
-  position: absolute;
-  padding: 10px;
-  top: 100px;
-  left: 80px;
-  transform: translate3d(-50%, -50%, 0);
-  border-radius: 5px;
-  pointer-events: none;
-  z-index: 1000;
-  color: red;
-}
 .span1{
   position: absolute;
-  padding: 10px;
-  top: 100px;
-  left: 90px;
+  padding: 5px;
+  top: 60px;
+  left: 40px;
+  font-size: 14px;
   transform: translate3d(-50%, -50%, 0);
   border-radius: 5px;
   pointer-events: none;
   z-index: 1000;
-  color: white;
+  color: #fff;
 }
 .span2{
   position: absolute;
-  padding: 10px;
-  top: 220px;
-  left: 90px;
+  padding: 5px;
+  font-size: 12px;
+  top: 130px;
+  left: 40px;
   transform: translate3d(-50%, -50%, 0);
   border-radius: 5px;
   pointer-events: none;
   z-index: 1000;
-  color: white;
+  color: #fff;
 }
 
 .span3{
   position: absolute;
-  padding: 10px;
-  top: 350px;
-  left: 80px;
+  padding: 5px;
+  font-size: 14px;
+  top: 220px;
+  left: 40px;
   transform: translate3d(-50%, -50%, 0);
   border-radius: 5px;
   pointer-events: none;
   z-index: 1000;
-  color: #ffffff;
+  color: #fff;
 }
 .span4{
   position: absolute;
-  padding: 10px;
-  top: 120px;
-  left: 180px;
+  padding: 5px;
+  font-size: 14px;
+  top: 70px;
+  left: 110px;
   transform: translate3d(-50%, -50%, 0);
   border-radius: 5px;
   pointer-events: none;
   z-index: 1000;
-  color: white;
+  color: #fff;
+}
+.img-style{
+  width: 100px!important;
+  background-color: red;
 }
 .span5{
   position: absolute;
-  padding: 10px;
-  top: 120px;
-  left: 320px;
-  transform: translate3d(-50%, -50%, 0);
-  border-radius: 5px;
-  pointer-events: none;
-  z-index: 1000;
-  color: white;
-}
-.span6{
-  position: absolute;
-  padding: 10px;
-  bottom: 120px;
+  padding: 5px;
+  font-size: 14px;
+  top: 70px;
   left: 210px;
   transform: translate3d(-50%, -50%, 0);
   border-radius: 5px;
   pointer-events: none;
   z-index: 1000;
-  color: white;
+  color: #fff;
 }
-.span7{
+.span6{
   position: absolute;
-  padding: 10px;
-  bottom: 110px;
-  left: 380px;
+  padding: 5px;
+  font-size: 14px;
+  bottom: 40px;
+  left: 140px;
   transform: translate3d(-50%, -50%, 0);
   border-radius: 5px;
   pointer-events: none;
   z-index: 1000;
-  color: white;
+  color: #fff;
+}
+.span7{
+  position: absolute;
+  padding: 5px;
+  font-size: 14px;
+  bottom: 40px;
+  left: 265px;
+  transform: translate3d(-50%, -50%, 0);
+  border-radius: 5px;
+  pointer-events: none;
+  z-index: 1000;
+  color: #fff;
 }
